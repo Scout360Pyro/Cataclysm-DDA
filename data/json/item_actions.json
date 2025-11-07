@@ -67,7 +67,7 @@
   {
     "type": "item_action",
     "id": "GEIGER",
-    "name": { "str": "Use Geiger counter" }
+    "name": { "str": "Use geiger counter" }
   },
   {
     "type": "item_action",
@@ -287,7 +287,7 @@
   {
     "type": "item_action",
     "id": "CAMERA",
-    "name": { "str": "Use camera" }
+    "name": { "str": "Take a photo" }
   },
   {
     "type": "item_action",
@@ -376,8 +376,23 @@
   },
   {
     "type": "item_action",
+    "id": "EMOVEDATA",
+    "name": { "str": "Manage/Move data" }
+  },
+  {
+    "type": "item_action",
+    "id": "ESTORAGE",
+    "name": { "str": "View stored data" }
+  },
+  {
+    "type": "item_action",
     "id": "EBOOKSAVE",
     "name": { "str": "Store books" }
+  },
+  {
+    "type": "item_action",
+    "id": "EBOOKREAD",
+    "name": { "str": "Read stored books" }
   },
   {
     "type": "item_action",
@@ -580,9 +595,14 @@
     "name": { "str": "Mop" }
   },
   {
-    "//": "hardcoded name",
     "type": "item_action",
-    "id": "mp3"
+    "id": "MP3",
+    "name": { "str": "Play music" }
+  },
+  {
+    "type": "item_action",
+    "id": "MP3_DEACTIVATE",
+    "name": { "str": "Turn off music" }
   },
   {
     "type": "item_action",
@@ -676,28 +696,13 @@
   },
   {
     "type": "item_action",
-    "id": "POST_UP",
-    "name": { "str": "Put up" }
-  },
-  {
-    "type": "item_action",
     "id": "PROZAC",
     "name": { "str": "Take" }
   },
   {
     "type": "item_action",
-    "id": "E_FILE_DEVICE",
-    "name": { "str": "Manage files" }
-  },
-  {
-    "type": "item_action",
-    "id": "VIEW_RECIPES",
-    "name": { "str": "View recipes" }
-  },
-  {
-    "type": "item_action",
-    "id": "VIEW_PHOTOS",
-    "name": { "str": "View photos" }
+    "id": "ELECTRICSTORAGE",
+    "name": { "str": "Manage external storage" }
   },
   {
     "type": "item_action",
